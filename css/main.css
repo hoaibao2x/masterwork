@@ -11,6 +11,10 @@
         font-size: 16px;
     }
 
+    a, a:hover {
+        text-decoration: none;
+    }
+
     .mast-title {
         max-width: 750px;
     }
