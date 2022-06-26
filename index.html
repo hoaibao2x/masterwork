@@ -17,6 +17,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <!-- Font Google Down Icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -131,14 +135,154 @@
     <!-- END BLOG SECTION -->
 
     <!-- FAQs SECTION -->
-    <section class="mast-faq">
-        <div class="mast-title text-center mx-auto">
+    <section class="mast-faq mast-section mx-auto container">
+        <div class="mast-title mx-auto text-center">
             <h6>QUESTIONS AND ANSWERS</h6>
             <h3>General FAQs</h3>
             <p>
                 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
                 dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
             </p>
+        </div>
+        <div class="faq__content">
+            <div class="row">
+                <div class="col-5">
+                    <img class="faq__img" src="./imgs/women.jpg" alt="">
+                </div>
+                <div class="col-7">
+                    <div class="accordion" id="faq__collapse">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button"
+                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        There are many passages but the majority?
+                                    </button>
+                                </h2>
+                                <span class="material-symbols-outlined">
+                                    expand_more
+                                </span>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#faq__collapse">
+                                <div class="card-body">
+                                    Voluptates amet earum velit nobis aliquam
+                                    laboriosam nihil debitis facere voluptatibus consectetur quae quasi fuga, ad
+                                    corrupti libero omnis sapiente
+                                    non assumenda, incidunt officiis eaque iste minima autem.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Sed ut perspiciatis unde omnis?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#faq__collapse">
+                                <div class="card-body">
+                                    Sit amet consectetur adipisicing elit. Voluptates amet earum velit nobis aliquam
+                                    laboriosam nihil debitis animi vitae eos nisi laudantium. Tempore reiciendis ipsam
+                                    culpa, qui
+                                    voluptates eveniet, incidunt officiis eaque iste minima autem.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        At vero eos iusto odio ducimus qui?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#faq__collapse">
+                                <div class="card-body">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates amet earum
+                                    velit nobis aliquam
+                                    laboriosam nihil quasi fuga, ad corrupti libero omnis sapiente
+                                    non assumenda excepturi aperiam animi vitae eos nisi laudantium. Tempore reiciendis
+                                    ipsam culpa, qui
+                                    voluptates eveniet, incidunt officiis eaque iste minima autem.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        We denounce with righteous?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#faq__collapse">
+                                <div class="card-body">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates amet earum
+                                    velit nobis aliquam
+                                    laboriosam nihil debitis facere voluptatibus consectetur quae quasi fuga, ad
+                                    corrupti libero omnis sapiente
+                                    non assumenda excepturi aperiam iste minima autem.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        perspiciatis unde omnis?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#faq__collapse">
+                                <div class="card-body">
+                                    Sit amet consectetur adipisicing elit. Voluptates amet earum velit nobis aliquam
+                                    laboriosam nihil debitis animi vitae eos nisi laudantium. Tempore reiciendis ipsam
+                                    culpa, qui
+                                    voluptates eveniet, incidunt officiis eaque iste minima autem.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+                                        aria-controls="collapseSix">
+                                        At vero eos iusto odio ducimus qui?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                                data-parent="#faq__collapse">
+                                <div class="card-body">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates amet earum
+                                    velit nobis aliquam
+                                    laboriosam nihil quasi fuga, ad corrupti libero omnis sapiente
+                                    non assumenda excepturi aperiam animi vitae eos nisi laudantium. Tempore reiciendis
+                                    ipsam culpa, qui
+                                    voluptates eveniet, incidunt officiis eaque iste minima autem.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- END FAQs SECTION -->
