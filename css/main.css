@@ -11,8 +11,28 @@
         font-size: 16px;
     }
 
-    a, a:hover {
-        text-decoration: none;
+    .mast-title {
+        max-width: 750px;
+    }
+
+    .mast-title h6 {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #dc4f72;
+    }
+
+    .mast-title h3 {
+        color: #2c3038;
+        font-size: 46px;
+        font-weight: 700;
+    }
+
+    .mast-title p {
+        color: #2c3038;
+        font-size: 16px;
+        font-weight: 400;
+        
     }
 
 /* END GLOBAL */
