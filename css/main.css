@@ -454,13 +454,15 @@
                 margin-top: 35px;
             }
 
-            #faq__collapse .card-header h2 {
-                /* margin-left: 0; */
-                /* padding: 12px 20px 12px 1px; */
+            #faq__collapse .card-header h2 button {
+                padding-left: 3px;
             }
 
             #faq__collapse .card-body {
-                padding-left: 10px;
+                text-align: justify;
+                word-break: break-all;
+                padding-left: 20px;
+                padding-right: 50px;
             }
 
         }
