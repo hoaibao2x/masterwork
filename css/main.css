@@ -104,6 +104,11 @@
             transition: all .5s;
         }
 
+        .blog__content .card:first-of-type,
+        .blog__content .card:nth-of-type(2) {
+            margin-bottom: 50px;
+        }
+
         .blog__content .card:hover {
             transform: translateY(-10px);
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
