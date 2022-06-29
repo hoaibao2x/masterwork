@@ -339,6 +339,94 @@
 
 
     /* FEATURE */
+        .feature__content {
+            max-width: 900px;
+        }
+
+        .feature__content ul {
+            display: grid;
+            grid-template-columns: repeat(3, 1.5fr);
+            text-align: center;
+        }
+
+        .feature__content .nav-item .nav-link {
+            position: relative;
+            font-size: 22px;
+            font-weight: 700;
+            padding: 15px;
+            margin: 0;
+            color: #4e5B61;
+            background-color: #fff;
+            transition: all .5s;
+        }
+
+        .nav-item .nav-link::before {
+            position: absolute;
+            content: '';
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #eee;
+            transition: all .5s;
+        }
+
+        .nav-item .nav-link.active {
+            color: #dc4f72;
+        }
+
+        .nav-item .nav-link.active::before {
+            background-color: #dc4f72;
+        }
+
+        #feature__tab__content .row {
+            margin: 30px 5px;
+        }
+
+        #feature__tab__content .col__text h3 {
+            color: #2c3038;
+            font-size: 30px;
+            line-height: 36px;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        #feature__tab__content .col__text p {
+            color: #2c3038;
+            margin-bottom: 16px;
+            font-size: 16px;
+            line-height: 24.5px;
+        }
+
+        #feature__tab__content .col__text .feature__btn {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 700;
+            color: #dc4f72;
+            border: 1px solid #dc4f72;
+            border-radius: 5px;
+            text-transform: uppercase;
+            height: 52px;
+            line-height: 52px;
+            padding: 0 30px;
+            transition: all .5s;
+        }
+
+        #feature__tab__content .col__text .feature__btn:hover {
+            color: #fff;
+            background-color: #dc4f72;
+        }
+
+        #feature__tab__content .col__img img {
+            width: 100%;
+            border-radius: 5px;
+            transform: translateY(10px);
+            transition: all .5s;
+        }
+
+        #feature__tab__content .col__img img:hover {
+            transform: translateY(0);
+        }
 
     /* END FEATURE */
 
@@ -470,7 +558,65 @@
 
 
     /* FEATURE RESP */
+        @media screen and (max-width: 576px) {
 
+            .mast-feature .mast-title h3 {
+                font-size: 32px;
+            }
+
+            .mast-feature .mast-title p {
+                max-width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .feature__content ul {
+                display: block;
+                text-align: left;
+            }
+
+            .feature__content .nav-item .nav-link {
+                position: relative;
+            }
+
+            .feature__content .nav-item .nav-link::after {
+                position: absolute;
+                font-family: 'Font Awesome 6 Free';
+                content: '\f0d7';
+                top: 18px;
+                right: 5px;
+                font-size: 14px;
+                font-weight: 900;
+                transform: rotate(0deg);
+                transition: all .5s;
+            }
+            
+            .feature__content .nav-item .nav-link.active::after {
+                transform: rotate(180deg);
+            }
+
+            #feature__tab__content .row {
+                margin: 5px 0 10px;
+            }
+
+            #feature__tab__content .col__text h3 {
+                font-size: 22px;
+            }
+
+            #feature__tab__content .col__text p {
+                text-align: justify;
+                word-break: break-all;
+            }
+
+            #feature__tab__content .col__text .feature__btn {
+                margin: 15px 0 30px;
+            }
+
+            #pill__prj__two .col__text {
+                margin-top: 30px;
+            }
+
+        }
     /* END FEATURE RESP */
 
 
@@ -491,7 +637,7 @@
 
     /* FAQ SECTION */
         /* fadeInUp animation */
-        @keyframes inUp {
+        /* @keyframes inUp {
             from {
                 transform: translateY(10px);
             }
@@ -499,7 +645,7 @@
             to {
                 transform: translateY(0px);
             }
-        }
+        } */
     /* END FAQ SECTION */
 
 /* END ANIMATION SECTION */
