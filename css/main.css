@@ -429,7 +429,12 @@
 
 
     /* BLOG RESP */
-
+    @media screen and (max-width: 576px) {
+        .blog__content .card:first-of-type,
+                .blog__content .card:nth-of-type(2) {
+                    margin-bottom: 50px;
+                }
+        }
     /* END BLOG RESP */
 
 
