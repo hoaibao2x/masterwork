@@ -339,6 +339,7 @@
 
 
     /* FEATURE */
+    
         .feature__content {
             max-width: 900px;
         }
@@ -426,6 +427,10 @@
 
         #feature__tab__content .col__img img:hover {
             transform: translateY(0);
+        }
+
+        .collapse__type {
+            display: none;
         }
 
     /* END FEATURE */
@@ -563,9 +568,19 @@
 
 
     /* FEATURE RESP */
+
+
         @media screen and (max-width: 576px) {
 
-            .mast-feature .mast-title h3 {
+            .pill__type {
+                display: none;
+            }
+
+            .collapse__type {
+                display: block;
+            }
+
+            /* .mast-feature .mast-title h3 {
                 font-size: 32px;
             }
 
@@ -619,7 +634,7 @@
 
             #pill__prj__two .col__text {
                 margin-top: 30px;
-            }
+            } */
 
         }
     /* END FEATURE RESP */
