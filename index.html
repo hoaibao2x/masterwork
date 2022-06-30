@@ -383,22 +383,112 @@
             <!-- End Pill Type -->
             <!-- Collapse Type -->
             <div class="collapse__type">
+
                 <div class="accordion" id="feature__collapse">
+                    <div class="card">
+                        <a class="collapse__header" data-toggle="collapse" href="#collapse__one" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            Project One
+                        </a>
+                        <div id="collapse__one" class="collapse show" data-parent="#feature__collapse">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-12 col__text">
+                                        <h3>Why a visual identity system is more memorable</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores
+                                            praesentium
+                                            nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis,
+                                            necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                                        </p>
+                                        <a href="#" class="feature__btn">know more</a>
+                                    </div>
+                                    <div class="col-sm-12 col__img">
+                                        <img src="./imgs/b4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a class="collapse__header collapsed" type="button" data-toggle="collapse"
+                            href="#collapse__two">
+                            Project Two
+                        </a>
+                        <div id="collapse__two" class="collapse" data-parent="#feature__collapse">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-12 col__img">
+                                        <img src="./imgs/b5.jpg" alt="">
+                                    </div>
+                                    <div class="col-sm-12 col__text">
+                                        <h3>Make website that looks Lorem, ipsum dolor.</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores
+                                            praesentium
+                                            nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis,
+                                            necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                                        </p>
+                                        <a href="#" class="feature__btn">know more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a class="collapse__header collapsed" type="button" data-toggle="collapse"
+                            href="#collapse__three">
+                            Project Three
+                        </a>
+                        <div id="collapse__three" class="collapse" data-parent="#feature__collapse">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-12 col__text">
+                                        <h3>Why a visual identity system is more memorable</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores
+                                            praesentium
+                                            nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis,
+                                            necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                                        </p>
+                                        <a href="#" class="feature__btn">know more</a>
+                                    </div>
+                                    <div class="col-sm-12 col__img">
+                                        <img src="./imgs/b6.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="accordion" id="feature__collapse">
                     <div class="card">
                         <div class="card-header" id="collapse__one">
                             <h2 class="mb-0">
-                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Collapsible Group Item #1
+                                <button class="btn btn-link btn-block text-left show" type="button"
+                                    data-toggle="collapse" data-target="#collapseOne">
+                                    Project One
                                 </button>
                             </h2>
                         </div>
-
-                        <div id="collapseOne" class="collapse" aria-labelledby="collapse__one"
-                            data-parent="#feature__collapse">
+                        <div id="collapseOne" class="collapse show" data-parent="#feature__collapse">
                             <div class="card-body">
-                                Some placeholder content for the first accordion panel. This panel is shown by default,
-                                thanks to the <code>.show</code> class.
+                                <div class="row">
+                                    <div class="col-sm-12 col__text">
+                                        <h3>Why a visual identity system is more memorable</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores
+                                            praesentium
+                                            nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis,
+                                            necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                                        </p>
+                                        <a href="#" class="feature__btn">know more</a>
+                                    </div>
+                                    <div class="col-sm-12 col__img">
+                                        <img src="./imgs/b4.jpg" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -406,17 +496,28 @@
                         <div class="card-header" id="headingTwo">
                             <h2 class="mb-0">
                                 <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo">
-                                    Collapsible Group Item #2
+                                    data-toggle="collapse" data-target="#collapseTwo" onclick="change__bg__color()">
+                                    Project Two
                                 </button>
                             </h2>
                         </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                            data-parent="#feature__collapse">
+                        <div id="collapseTwo" class="collapse" data-parent="#feature__collapse">
                             <div class="card-body">
-                                Some placeholder content for the second accordion panel. This panel is hidden by
-                                default.
+                                <div class="row">
+                                    <div class="col-sm-12 col__img">
+                                        <img src="./imgs/b5.jpg" alt="">
+                                    </div>
+                                    <div class="col-sm-12 col__text">
+                                        <h3>Make website that looks Lorem, ipsum dolor.</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores
+                                            praesentium
+                                            nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis,
+                                            necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                                        </p>
+                                        <a href="#" class="feature__btn">know more</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -424,21 +525,32 @@
                         <div class="card-header" id="headingThree">
                             <h2 class="mb-0">
                                 <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
-                                    Collapsible Group Item #3
+                                    data-toggle="collapse" data-target="#collapseThree">
+                                    Project Three
                                 </button>
                             </h2>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#feature__collapse">
+                        <div id="collapseThree" class="collapse" data-parent="#feature__collapse">
                             <div class="card-body">
-                                And lastly, the placeholder content for the third and final accordion panel. This panel
-                                is hidden by default.
+                                <div class="row">
+                                    <div class="col-sm-12 col__text">
+                                        <h3>Why a visual identity system is more memorable</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores
+                                            praesentium
+                                            nulla quibusdam repellendus. consequatur minus aliquam corrupti blanditiis,
+                                            necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                                        </p>
+                                        <a href="#" class="feature__btn">know more</a>
+                                    </div>
+                                    <div class="col-sm-12 col__img">
+                                        <img src="./imgs/b6.jpg" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <!-- End Collapse Type -->
 
@@ -454,9 +566,6 @@
     <!-- FOOTER SECTION -->
     <footer class="mast-footer"></footer>
     <!-- FOOTER SECTION -->
-
-
-
 
     <!-- Bootstrap 4 JS -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
