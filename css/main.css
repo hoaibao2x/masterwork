@@ -338,6 +338,7 @@ a:hover {
 }
 
 /* END FAQ */
+/* END FAQ */
 
 
 /* FEATURE */
@@ -645,6 +646,16 @@ a:hover {
 
 /* FOOTER */
 
+/* END FEATURE */
+
+
+/* FEEDBACK */
+
+/* END FEEDBACK */
+
+
+/* FOOTER */
+
 /* END FOOTER */
 
 /* END LIGHT MODE */
@@ -726,6 +737,15 @@ a:hover {
 /* BLOG RESP */
 @media screen and (max-width: 576px) {
 
+    .mast-blog .mast-title h3 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .mast-blog .mast-title p {
+        padding: 0 15px;
+    }
+
     .blog__content .card:first-of-type,
     .blog__content .card:nth-of-type(2) {
         margin-bottom: 50px;
@@ -785,6 +805,14 @@ a:hover {
         display: block;
     }
 
+    .mast-feature .mast-title h3 {
+        font-size: 32px;
+    }
+
+    .mast-feature .mast-title p {
+        padding: 0 15px;
+    }
+
 }
 
 /* END FEATURE RESP */
@@ -826,6 +854,55 @@ a:hover {
 
 
 }
+
+/* END FEEDBACK RESP */
+
+
+/* FAQ RESP */
+
+@media screen and (max-width: 576px) {
+
+    .mast-faq {
+        padding: 45px 0;
+    }
+
+    .mast-faq .mast-title h3 {
+        font-size: 32px;
+    }
+
+    .mast-faq .mast-title p {
+        /* max-width: 400px;
+            margin-left: auto;
+            margin-right: auto; */
+        padding: 0 15px;
+    }
+
+    #faq__collapse {
+        margin-top: 35px;
+    }
+
+    #faq__collapse .card-header h2 button {
+        padding-left: 3px;
+    }
+
+    #faq__collapse .card-body {
+        text-align: justify;
+        word-break: break-all;
+        padding-left: 20px;
+        padding-right: 50px;
+    }
+
+}
+
+/* END FAQ RESP */
+
+
+/* FEATURE RESP */
+
+/* END FEATURE RESP */
+
+
+/* FEEDBACK RESP */
 
 /* END FEEDBACK RESP */
 
