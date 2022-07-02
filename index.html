@@ -12,6 +12,10 @@
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
     <!-- Font Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -560,12 +564,121 @@
     <!-- END FEATURES SECTION -->
 
     <!-- FEEDBACK SECTION -->
-    <section class="mast-feedback"></section>
+    <section class="mast-feedback mast-section">
+        <div class="mast-title mx-auto text-center">
+            <h6>OUR CLIENTS TESTIMONIALS</h6>
+            <h3>What People Say</h3>
+            <p>
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
+                dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+            </p>
+        </div>
+        <div class="feedback__content container owl-carousel owl-theme">
+            <div class="feedback__item ">
+                <div class="row">
+                    <div class="col-sm-12 col-md-2 feedback__avatar text-center">
+                        <img src="./imgs/team3.jpg" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-10 feedback__text">
+                        <p class="feedback__des">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti
+                            praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam
+                            obcaecati sapiente quaerat et.
+                        </p>
+                        <p class="feedback__author">
+                            Isabella Mia
+                        </p>
+                        <p class="feedback__company">
+                            Company name
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback__item">
+                <div class="row">
+                    <div class="col-sm-12 col-md-2 feedback__avatar text-center">
+                        <img src="./imgs/team4.jpg" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-10 feedback__text">
+                        <p class="feedback__des">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti
+                            praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam
+                            obcaecati sapiente quaerat et.
+                        </p>
+                        <p class="feedback__author">
+                            Benjamin Lucas
+                        </p>
+                        <p class="feedback__company">
+                            Company name
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback__item">
+                <div class="row">
+                    <div class="col-sm-12 col-md-2 feedback__avatar text-center">
+                        <img src="./imgs/team5.jpg" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-10 feedback__text">
+                        <p class="feedback__des">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti
+                            praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam
+                            obcaecati sapiente quaerat et.
+                        </p>
+                        <p class="feedback__author">
+                            Oliver Bradley
+                        </p>
+                        <p class="feedback__company">
+                            Company name
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback__item">
+                <div class="row">
+                    <div class="col-sm-12 col-md-2 feedback__avatar text-center">
+                        <img src="./imgs/team6.jpg" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-10 feedback__text">
+                        <p class="feedback__des">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti
+                            praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam
+                            obcaecati sapiente quaerat et.
+                        </p>
+                        <p class="feedback__author">
+                            William James
+                        </p>
+                        <p class="feedback__company">
+                            Company name
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- END FEEDBACK SECTION -->
 
     <!-- FOOTER SECTION -->
     <footer class="mast-footer"></footer>
     <!-- FOOTER SECTION -->
+
+    <!-- Olw Carousel JS -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 2,
+                }
+            }
+        })
+    </script>
 
     <!-- Bootstrap 4 JS -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
