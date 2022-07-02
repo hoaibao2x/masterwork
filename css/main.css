@@ -1,47 +1,49 @@
 /* GLOBAL */
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    html, body {
-        font-family: 'Nunito', sans-serif;
-        font-size: 16px;
-    }
+html,
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
 
-    a, a:hover {
-        text-decoration: none;
-    }
+a,
+a:hover {
+    text-decoration: none;
+}
 
-    .mast-title {
-        max-width: 750px;
-    }
+.mast-title {
+    max-width: 750px;
+}
 
-    .mast-title h6 {
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: 700;
-        color: #dc4f72;
-    }
+.mast-title h6 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #dc4f72;
+}
 
-    .mast-title h3 {
-        color: #2c3038;
-        font-size: 46px;
-        font-weight: 700;
-    }
+.mast-title h3 {
+    color: #2c3038;
+    font-size: 46px;
+    font-weight: 700;
+}
 
-    .mast-title p {
-        color: #2c3038;
-        font-size: 16px;
-        font-weight: 400;
-        
-    }
+.mast-title p {
+    color: #2c3038;
+    font-size: 16px;
+    font-weight: 400;
 
-    .mast-section {
-        margin: 3.1rem 0;
-    }
+}
+
+.mast-section {
+    margin: 3.1rem 0;
+}
 
 /* END GLOBAL */
 
@@ -49,206 +51,206 @@
 
 /* LIGHT MODE */
 
-    /* HEADER */
+/* HEADER */
 
-    /* END HEADER */
-
-
-    /* CAROUSEL */
-
-    /* END CAROUSEL */
+/* END HEADER */
 
 
-    /* WHY CHOOSE */
+/* CAROUSEL */
 
-    /* END WHY CHOOSE */
-
-
-    /* ABOUT US */
-
-    /* END ABOUT US */
+/* END CAROUSEL */
 
 
-    /* BLOG */
-        .mast-title {
-            max-width: 750px;
-        }
+/* WHY CHOOSE */
 
-        .mast-title h6 {
-            font-size: 16px;
-            line-height: 20px;
-            font-weight: 700;
-            color: #dc4f72;
-        }
-
-        .mast-title h3 {
-            color: #2c3038;
-            font-size: 46px;
-            font-weight: 700;
-        }
-
-        .mast-title p {
-            color: #2c3038;
-            font-size: 16px;
-            font-weight: 400;
-            
-        }
-
-        .blog__content .card-deck {
-            margin-top: 50px;
-        }
-
-        .blog__content .card {
-            border-radius: 6px;
-            transform: translateY(0);
-            transition: all .5s;
-        }
-
-        .blog__content .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
-        }
-
-        .blog__content .card:hover {
-            cursor: pointer;
-        }
-
-        .blog__content .card img {
-            /* width: 100%; */
-            border-radius: 6px 6px 0 0;
-            filter: grayscale(1);
-            transition: all .5s;
-        }
-
-        .blog__content .card:hover img {
-            filter: grayscale(0);
-        }
-
-        .blog__content .card:first-of-type::before {
-            position: absolute;
-            content: '26 Jan, 2022';
-            font-size: 18px;
-            color: #fff;
-            font-weight: 700;
-            text-align: center;
-            top: 0;
-            right: 0;
-            width: 130px;
-            height: 50px;
-            line-height: 50px;
-            border-radius: 0 6px 0 0;
-            display: block;
-            background-color: #dc4f72;
-            z-index: 1;
-            transition: all .5s;
-        }
-
-        .blog__content .card:nth-of-type(2)::before {
-            position: absolute;
-            content: '15 Apr, 2020';
-            font-size: 18px;
-            color: #fff;
-            font-weight: 700;
-            text-align: center;
-            top: 0;
-            right: 0;
-            width: 130px;
-            height: 50px;
-            line-height: 50px;
-            border-radius: 0 6px 0 0;
-            display: block;
-            background-color: #dc4f72;
-            z-index: 1;
-        }
-
-        .blog__content .card:nth-of-type(3)::before {
-            position: absolute;
-            content: '25 Jun, 2020';
-            font-size: 18px;
-            color: #fff;
-            font-weight: 700;
-            text-align: center;
-            top: 0;
-            right: 0;
-            width: 130px;
-            height: 50px;
-            line-height: 50px;
-            border-radius: 0 6px 0 0;
-            display: block;
-            background-color: #dc4f72;
-            z-index: 1;
-        }
-
-        .blog__content .card-body {
-            padding: 20px 20px 30px 20px;
-        }
-
-        .blog__content .card-body span {
-            display: block;
-            text-align: center;
-            font-size: 12px;
-            font-weight: 600;
-            width: 83px;
-            height: 30px;
-            line-height: 30px;
-            border-radius: 20px;
-            margin: 10px 0 20px;
-        }
-
-        .card-body .pink__badge {
-            color: #dc4f72;
-            background: rgba(238, 97, 120, 0.2);
-        }
-
-        .card-body .green__badge {
-            color: #008000;
-            background: rgba(0, 128, 0, 0.2);
-        }
-
-        .card-body .blue__badge {
-            color: #0000ff;
-            background: rgba(0, 0, 255, 0.2);
-        }
-
-        .blog__content .card .card-title a {
-            color: #2c3038;
-            font-size: 22px;
-            line-height: 27px;
-            font-weight: 600;
-            display: block;
-        }
-
-        .blog__content .card:hover a {
-            color: #dc4f72;
-        }
-
-        .blog__content .card-body p {
-            font-size: 16px;
-            line-height: 24.5px;
-            color: #5a5a5a;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
-        }
-
-        .blog__content .card-body .card__link {
-            color: #dc4f72;
-            font-size: 16px;
-            font-weight: 600;
-        }
-
-        .blog__content .card__link i {
-            font-size: 12px;
-            transition: all .5s;
-        }
-
-        .blog__content .card:hover i {
-            margin-left: 5px;
-        }
-
-    /* END BLOG */
+/* END WHY CHOOSE */
 
 
-    /* FAQ */
+/* ABOUT US */
+
+/* END ABOUT US */
+
+
+/* BLOG */
+.mast-title {
+    max-width: 750px;
+}
+
+.mast-title h6 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #dc4f72;
+}
+
+.mast-title h3 {
+    color: #2c3038;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.mast-title p {
+    color: #2c3038;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.blog__content .card-deck {
+    margin-top: 50px;
+}
+
+.blog__content .card {
+    border-radius: 6px;
+    transform: translateY(0);
+    transition: all .5s;
+}
+
+.blog__content .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+
+.blog__content .card:hover {
+    cursor: pointer;
+}
+
+.blog__content .card img {
+    /* width: 100%; */
+    border-radius: 6px 6px 0 0;
+    filter: grayscale(1);
+    transition: all .5s;
+}
+
+.blog__content .card:hover img {
+    filter: grayscale(0);
+}
+
+.blog__content .card:first-of-type::before {
+    position: absolute;
+    content: '26 Jan, 2022';
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    top: 0;
+    right: 0;
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 0 6px 0 0;
+    display: block;
+    background-color: #dc4f72;
+    z-index: 1;
+    transition: all .5s;
+}
+
+.blog__content .card:nth-of-type(2)::before {
+    position: absolute;
+    content: '15 Apr, 2020';
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    top: 0;
+    right: 0;
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 0 6px 0 0;
+    display: block;
+    background-color: #dc4f72;
+    z-index: 1;
+}
+
+.blog__content .card:nth-of-type(3)::before {
+    position: absolute;
+    content: '25 Jun, 2020';
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    top: 0;
+    right: 0;
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 0 6px 0 0;
+    display: block;
+    background-color: #dc4f72;
+    z-index: 1;
+}
+
+.blog__content .card-body {
+    padding: 20px 20px 30px 20px;
+}
+
+.blog__content .card-body span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    width: 83px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    margin: 10px 0 20px;
+}
+
+.card-body .pink__badge {
+    color: #dc4f72;
+    background: rgba(238, 97, 120, 0.2);
+}
+
+.card-body .green__badge {
+    color: #008000;
+    background: rgba(0, 128, 0, 0.2);
+}
+
+.card-body .blue__badge {
+    color: #0000ff;
+    background: rgba(0, 0, 255, 0.2);
+}
+
+.blog__content .card .card-title a {
+    color: #2c3038;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 600;
+    display: block;
+}
+
+.blog__content .card:hover a {
+    color: #dc4f72;
+}
+
+.blog__content .card-body p {
+    font-size: 16px;
+    line-height: 24.5px;
+    color: #5a5a5a;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.blog__content .card-body .card__link {
+    color: #dc4f72;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.blog__content .card__link i {
+    font-size: 12px;
+    transition: all .5s;
+}
+
+.blog__content .card:hover i {
+    margin-left: 5px;
+}
+
+/* END BLOG */
+
+
+/* FAQ */
 
         .mast-faq {
             background-color: #f7f9fc;
@@ -336,21 +338,22 @@
         }
 
     /* END FAQ */
+/* END FAQ */
 
 
-    /* FEATURE */
+/* FEATURE */
 
-    /* END FEATURE */
-
-
-    /* FEEDBACK */
-
-    /* END FEEDBACK */
+/* END FEATURE */
 
 
-    /* FOOTER */
+/* FEEDBACK */
 
-    /* END FOOTER */
+/* END FEEDBACK */
+
+
+/* FOOTER */
+
+/* END FOOTER */
 
 /* END LIGHT MODE */
 
@@ -358,49 +361,49 @@
 
 /* DARK MODE */
 
-    /* HEADER DARK */
+/* HEADER DARK */
 
-    /* END HEADER DARK */
-
-
-    /* CAROUSEL DARK */
-
-    /* END CAROUSEL DARK */
+/* END HEADER DARK */
 
 
-    /* WHY CHOOSE DARK */
+/* CAROUSEL DARK */
 
-    /* END WHY CHOOSE DARK */
-
-
-    /* ABOUT US DARK */
-
-    /* END ABOUT US DARK */
+/* END CAROUSEL DARK */
 
 
-    /* BLOG DARK */
+/* WHY CHOOSE DARK */
 
-    /* END BLOG DARK */
-
-
-    /* FAQ DARK */
-
-    /* END FAQ DARK */
+/* END WHY CHOOSE DARK */
 
 
-    /* FEATURE DARK */
+/* ABOUT US DARK */
 
-    /* END FEATURE DARK */
-
-
-    /* FEEDBACK DARK */
-
-    /* END FEEDBACK DARK */
+/* END ABOUT US DARK */
 
 
-    /* FOOTER DARK */
+/* BLOG DARK */
 
-    /* END FOOTER DARK */
+/* END BLOG DARK */
+
+
+/* FAQ DARK */
+
+/* END FAQ DARK */
+
+
+/* FEATURE DARK */
+
+/* END FEATURE DARK */
+
+
+/* FEEDBACK DARK */
+
+/* END FEEDBACK DARK */
+
+
+/* FOOTER DARK */
+
+/* END FOOTER DARK */
 
 /* END DARK MODE */
 
@@ -408,34 +411,46 @@
 
 /* RESPONSIVE SECTION */
 
-    /* HEADER RESP */
+/* HEADER RESP */
 
-    /* END HEADER RESP */
-
-
-    /* CAROUSEL RESP */
-
-    /* END CAROUSEL RESP */
+/* END HEADER RESP */
 
 
-    /* WHY CHOOSE RESP */
+/* CAROUSEL RESP */
 
-    /* END WHY CHOOSE RESP */
-
-
-    /* ABOUT US RESP */
-
-    /* END ABOUT US RESP */
+/* END CAROUSEL RESP */
 
 
-    /* BLOG RESP */
-    @media screen and (max-width: 576px) {
-        .blog__content .card:first-of-type,
-                .blog__content .card:nth-of-type(2) {
-                    margin-bottom: 50px;
-                }
-        }
-    /* END BLOG RESP */
+/* WHY CHOOSE RESP */
+
+/* END WHY CHOOSE RESP */
+
+
+/* ABOUT US RESP */
+
+/* END ABOUT US RESP */
+
+
+/* BLOG RESP */
+@media screen and (max-width: 576px) {
+
+    .mast-blog .mast-title h3 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .mast-blog .mast-title p {
+        padding: 0 15px;
+    }
+
+    .blog__content .card:first-of-type,
+    .blog__content .card:nth-of-type(2) {
+        margin-bottom: 50px;
+    }
+
+}
+
+/* END BLOG RESP */
 
 
     /* FAQ RESP */
@@ -472,21 +487,24 @@
 
         }
     /* END FAQ RESP */
+/* FAQ RESP */
+
+/* END FAQ RESP */
 
 
-    /* FEATURE RESP */
+/* FEATURE RESP */
 
-    /* END FEATURE RESP */
-
-
-    /* FEEDBACK RESP */
-
-    /* END FEEDBACK RESP */
+/* END FEATURE RESP */
 
 
-    /* FOOTER RESP */
+/* FEEDBACK RESP */
 
-    /* END FOOTER RESP */
+/* END FEEDBACK RESP */
+
+
+/* FOOTER RESP */
+
+/* END FOOTER RESP */
 
 /* END RESPONSIVE SECTION */
 
