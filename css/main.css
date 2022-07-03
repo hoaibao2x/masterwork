@@ -712,6 +712,25 @@ a:hover {
 
 /* FEATURE RESP */
 
+@media screen and (max-width: 768px) {
+
+    .pill__type {
+        display: none;
+    }
+
+    .collapse__type {
+        display: block;
+    }
+
+    .mast-feature .mast-title h3 {
+        font-size: 32px;
+    }
+
+    .mast-feature .mast-title p {
+        padding: 0 15px;
+    }
+
+}
 
 @media screen and (max-width: 576px) {
 
@@ -734,51 +753,6 @@ a:hover {
 }
 
 /* END FEATURE RESP */
-
-
-/* FEEDBACK RESP */
-
-/* END FEEDBACK RESP */
-
-
-/* FAQ RESP */
-
-@media screen and (max-width: 576px) {
-
-    .mast-faq {
-        padding: 45px 0;
-    }
-
-    .mast-faq .mast-title h3 {
-        font-size: 32px;
-    }
-
-    .mast-faq .mast-title p {
-        /* max-width: 400px;
-            margin-left: auto;
-            margin-right: auto; */
-        padding: 0 15px;
-    }
-
-    #faq__collapse {
-        margin-top: 35px;
-    }
-
-    #faq__collapse .card-header h2 button {
-        padding-left: 3px;
-    }
-
-    #faq__collapse .card-body {
-        text-align: justify;
-        word-break: break-all;
-        padding-left: 20px;
-        padding-right: 50px;
-    }
-
-}
-
-/* END FAQ RESP */
-
 
 /* FEATURE RESP */
 
