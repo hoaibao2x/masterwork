@@ -941,6 +941,27 @@ a:hover {
 
 
 /* FEATURE RESP */
+
+@media screen and (max-width: 768px) {
+
+    .pill__type {
+        display: none;
+    }
+
+    .collapse__type {
+        display: block;
+    }
+
+    .mast-feature .mast-title h3 {
+        font-size: 32px;
+    }
+
+    .mast-feature .mast-title p {
+        padding: 0 15px;
+    }
+
+}
+
 @media screen and (max-width: 576px) {
 
     .pill__type {
@@ -1003,7 +1024,49 @@ a:hover {
 
 /* FOOTER RESP */
 
+@media screen and (max-width: 992px) {
+
+    .footer__content__top.container {
+        max-width: 950px;
+    }
+
+    .footer__content__top  {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer__item.form__contact {
+        grid-column: 1/ span 3;
+        margin-top: 50px;
+    }
+
+    .footer__item .card input {
+       width: 70%;
+    }
+
+    .footer__item .card button {
+        width: 30%;
+    }
+
+    .footer__content .footer__content__bottom {
+        display: block;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 576px) {
+
+    .footer__content__top .footer__item {
+        margin-top: 15px;
+    }
+
+    .footer__item.form__contact {
+        grid-column: 1/ span 3;
+    }
+
+    .footer__content__top .footer__item:first-of-type,
+    .footer__content__top .footer__item:nth-of-type(2) {
+        grid-column: 1/ span 3;
+    }
 
     .mast-footer .mast-title h3 {
         font-size: 32px;
@@ -1020,24 +1083,10 @@ a:hover {
         font-size: 12px;
     }
 
-    .footer__content__top  {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
-    }
-
-    .footer__content__top .footer__item {
-        margin-top: 20px;
-    }
-
-    .footer__content .footer__content__bottom {
-        display: block;
-        text-align: center;
-    }
-
 }
 
 
+/* FOOTER RESP */
 
 /* END FOOTER RESP */
 
