@@ -10,6 +10,7 @@ html,
 body {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
+    position: relative;
 }
 
 a,
@@ -43,6 +44,19 @@ a:hover {
 
 .mast-section {
     margin: 3.1rem 0;
+}
+
+#switchButton .fa-sun {
+    display: none;
+}
+
+.dark #switchButton .fa-sun {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.dark #switchButton .fa-moon {
+    display: none;
 }
 
 /* END GLOBAL */
@@ -355,11 +369,64 @@ a:hover {
 
 /* END FOOTER */
 
+/* Switch Theme Button */
+.btn__changeTheme {
+    position: fixed;
+    font-size: 20px;
+    bottom: 100px;
+    right: 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    padding: 5px 10px;
+}
+
+/* End Switch Theme Button */
+
+/* Back To Top */
+
+.backToTop {
+    position: absolute;
+    color: #000;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+.backToTop:hover {
+    color: #fff;
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* End Back To Top */
+
 /* END LIGHT MODE */
 
 
 
 /* DARK MODE */
+
+/* GLOBAL DARK */
+.dark#myBody {
+    /* background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply; */
+    background-color: #070d19;
+}
+
+/* END GLOBAL DARK */
 
 /* HEADER DARK */
 
@@ -382,6 +449,36 @@ a:hover {
 
 
 /* BLOG DARK */
+
+.dark .mast-blog .mast-title h3,
+.dark .mast-blog .mast-title p {
+    color: #fff;
+}
+
+.dark .blog__content .card {
+    border: none;
+}
+
+.dark .blog__content .card .card-body {
+    background-color: #111827;
+}
+
+.dark .blog__content .card-body a,
+.dark .blog__content .card-body p {
+    color: #fff;
+}
+
+.dark .blog__content .card-body a:hover {
+    color: #dc4f72;
+}
+
+.dark .blog__content .card-body .badge__test {
+    filter: contrast(200%);
+}
+
+.dark .blog__content .card-body .card__link {
+    color: #dc4f72;
+}
 
 /* END BLOG DARK */
 
