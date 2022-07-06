@@ -388,9 +388,9 @@ a:hover {
 /* Back To Top */
 
 .backToTop {
-    position: fo;
+    position: fixed;
     color: #000;
-    bottom: 0;
+    bottom: 50px;
     right: 0;
     font-size: 20px;
     background-color: #FBDA61;
@@ -399,6 +399,7 @@ a:hover {
     background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
     padding: 5px 12px;
     border-radius: 5px;
+    opacity: 0;
 }
 
 .backToTop:hover {
@@ -483,6 +484,28 @@ a:hover {
 
 
 /* FAQ DARK */
+
+    .dark .mast-faq {
+        background-color: #070d19;
+    }
+
+    .dark .mast-faq h3,
+    .dark .mast-faq p {
+        color: #fff;
+    }
+
+    .dark #faq__collapse .card-header,
+    .dark #faq__collapse .card-body {
+        background-color: #111827;
+    }
+
+    .dark #faq__collapse .card-header button,
+    .dark #faq__collapse .card-body {
+        color: #fff;
+    }
+
+
+    
 
 /* END FAQ DARK */
 
