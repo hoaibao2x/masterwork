@@ -31,7 +31,7 @@
 
 </head>
 
-<body>
+<body id="myBody">
 
     <!-- HEADER SECTION -->
     <header class="mast-header"></header>
@@ -70,7 +70,7 @@
                     <div class="card">
                         <img src="./imgs/b1.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
-                            <span class="pink__badge">Business</span>
+                            <span class="pink__badge"><span class="badge__test">Business</span></span>
                             <h5 class="card-title">
                                 <a href="#">
                                     Corporate, Business & Digital Agency
@@ -94,7 +94,7 @@
                     <div class="card">
                         <img src="./imgs/b7.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <span class="green__badge">Design</span>
+                            <span class="green__badge"><span class="badge__test">Design</span></span>
                             <h5 class="card-title">
                                 <a href="#">
                                     Corporate, Business & Digital Agency
@@ -118,7 +118,7 @@
                     <div class="card">
                         <img src="./imgs/b3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <span class="blue__badge">Industry</span>
+                            <span class="blue__badge"><span class="badge__test">Industry</span></span>
                             <h5 class="card-title">
                                 <a href="#">
                                     Corporate, Business & Digital Agency
@@ -159,8 +159,26 @@
     <footer class="mast-footer"></footer>
     <!-- FOOTER SECTION -->
 
+    <!-- Switch Theme Button -->
+    <div>
+        <button class="btn__changeTheme" id="switchButton">
+            <i class="fa-solid fa-moon"></i> 
+            <i class="fa-solid fa-sun"></i>
+        </button>
+    </div>
 
+    <div>
+        <a href="#" class="backToTop cd-top text-replace js-cd-top">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+    </div>
 
+    <!-- Main JS -->
+    <script src="./js/index.js"></script>
+
+    <!-- backToTop JS -->
+    <script src="./js/main.js"></script>
+    <script src="./js/util.js"></script>
 
     <!-- Bootstrap 4 JS -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
