@@ -31,7 +31,7 @@
 
 </head>
 
-<body>
+<body id="myBody">
 
     <!-- HEADER SECTION -->
     <header class="mast-header"></header>
@@ -54,7 +54,93 @@
     <!-- END ACHIEVEMENTS SECTION -->
 
     <!-- BLOG SECTION -->
-    <section class="mast-blog"></section>
+    <section class="mast-blog mast-section">
+        <div class="mast-title text-center mx-auto">
+            <h6>WE ARE HERE FOR YOU</h6>
+            <h3>Explore Solutions</h3>
+            <p>
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
+                dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+            </p>
+        </div>
+        <div class="blog__content container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col mb-4 mx-auto">
+                    <!-- Item 1 -->
+                    <div class="card">
+                        <img src="./imgs/b1.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <span class="pink__badge"><span class="badge__test">Business</span></span>
+                            <h5 class="card-title">
+                                <a href="#">
+                                    Corporate, Business & Digital Agency
+                                </a>
+                            </h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet nostrum ad minus libero fugiat molestiae ullam ipsam quas
+                                unde
+                                earum...
+                            </p>
+                            <a href="#" class="card__link">
+                                Know More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4 mx-auto">
+                    <!-- Item 2 -->
+                    <div class="card">
+                        <img src="./imgs/b7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <span class="green__badge"><span class="badge__test">Design</span></span>
+                            <h5 class="card-title">
+                                <a href="#">
+                                    Corporate, Business & Digital Agency
+                                </a>
+                            </h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet nostrum ad minus libero fugiat molestiae ullam ipsam quas
+                                unde
+                                earum...
+                            </p>
+                            <a href="#" class="card__link">
+                                Know More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4 mx-auto">
+                    <!-- Item 3 -->
+                    <div class="card">
+                        <img src="./imgs/b3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <span class="blue__badge"><span class="badge__test">Industry</span></span>
+                            <h5 class="card-title">
+                                <a href="#">
+                                    Corporate, Business & Digital Agency
+                                </a>
+                            </h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet nostrum ad minus libero fugiat molestiae ullam ipsam quas
+                                unde
+                                earum...
+                            </p>
+                            <a href="#" class="card__link">
+                                Know More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
     <!-- END BLOG SECTION -->
 
     <!-- FAQs SECTION -->
@@ -73,8 +159,26 @@
     <footer class="mast-footer"></footer>
     <!-- FOOTER SECTION -->
 
+    <!-- Switch Theme Button -->
+    <div>
+        <button class="btn__changeTheme" id="switchButton">
+            <i class="fa-solid fa-moon"></i> 
+            <i class="fa-solid fa-sun"></i>
+        </button>
+    </div>
 
+    <div>
+        <a href="#" class="backToTop cd-top text-replace js-cd-top">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+    </div>
 
+    <!-- Main JS -->
+    <script src="./js/index.js"></script>
+
+    <!-- backToTop JS -->
+    <script src="./js/main.js"></script>
+    <script src="./js/util.js"></script>
 
     <!-- Bootstrap 4 JS -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
