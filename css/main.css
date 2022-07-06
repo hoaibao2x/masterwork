@@ -832,6 +832,7 @@ a:hover {
     background-color: #FBDA61;
     background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
     padding: 5px 10px;
+    z-index: 1;
 }
 
 /* End Switch Theme Button */
@@ -851,6 +852,7 @@ a:hover {
     padding: 5px 12px;
     border-radius: 5px;
     opacity: 0;
+    z-index: 1;
 }
 
 .backToTop:hover {
@@ -1031,6 +1033,32 @@ a:hover {
 
 
 /* FOOTER DARK */
+
+.dark .mast-footer h3,
+.dark .mast-footer p {
+    color: #fff;
+}
+
+.dark .footer__content {
+    background-color: #070d19;
+}
+
+.dark .footer__item a {
+    color: #fff;
+}
+
+.dark .form__contact .card {
+    background-color: #111827;
+    color: #fff;
+}
+
+.dark .bottom__left p span {
+    color: #fff;
+}
+
+.dark .bottom__right i {
+    color: #fff;
+}
 
 /* END FOOTER DARK */
 
