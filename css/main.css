@@ -10,7 +10,6 @@ html,
 body {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
-    position: relative;
 }
 
 a,
@@ -389,7 +388,7 @@ a:hover {
 /* Back To Top */
 
 .backToTop {
-    position: absolute;
+    position: fo;
     color: #000;
     bottom: 0;
     right: 0;
