@@ -109,6 +109,10 @@ a:hover {
 
 }
 
+.blog__content {
+    margin-top: 50px;
+}
+
 .blog__content .card-deck {
     margin-top: 50px;
 }
@@ -309,18 +313,19 @@ a:hover {
     position: relative;
     background: #fff;
     border-bottom: none;
+    padding: 15px;
 }
 
-#faq__collapse .card-header button {
-    position: relative;
+#faq__collapse .card-header h2 {
+    /* position: relative; */
 }
 
 #faq__collapse .card-header .btn span {
     position: absolute;
     font-size: 1.6rem;
     font-weight: 700;
-    top: 0;
-    right: 0;
+    top: 15px;
+    right: 10px;
     transform: rotate(180deg);
     transition: all .5s;
 }
@@ -522,7 +527,6 @@ a:hover {
 #feature__collapse .col__text p {
     color: #2c3038;
     line-height: 24.5px;
-    /* word-break: break-all; */
     padding-right: 20px;
 }
 
@@ -745,7 +749,6 @@ a:hover {
 }
 
 .footer__item .card input {
-    /* display: inline-block; */
     margin-right: 10px;
     padding: 23px 15px;
     border: none;
@@ -772,7 +775,6 @@ a:hover {
 }
 
 .footer__content hr {
-    /* max-width: 73%; */
     width: 88%;
     margin: 40px auto;
     background-color: rgba(196, 196, 196, 0.2);
@@ -835,6 +837,10 @@ a:hover {
     z-index: 1;
 }
 
+.dark .btn__changeTheme {
+    color: #fff;
+}
+
 /* End Switch Theme Button */
 
 /* Back To Top */
@@ -856,6 +862,10 @@ a:hover {
 }
 
 .backToTop:hover {
+    color: black;
+}
+
+.dark .backToTop {
     color: #fff;
 }
 
@@ -874,8 +884,6 @@ a:hover {
 
 /* GLOBAL DARK */
 .dark#myBody {
-    /* background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
-    background-blend-mode: multiply; */
     background-color: #070d19;
 }
 
@@ -957,9 +965,6 @@ a:hover {
     color: #fff;
 }
 
-
-
-
 /* END FAQ DARK */
 
 
@@ -984,6 +989,7 @@ a:hover {
 /* End Nav Pill Dark */
 
 /* Collapse Dark */
+
 .dark #feature__collapse .card .collapse__header,
 .dark #feature__collapse .card .card-body {
     background-color: #070d19;
@@ -997,8 +1003,6 @@ a:hover {
 .dark #feature__collapse .card .collapse__header:hover {
     color: #dc4f72;
 }
-
-
 
 .dark #feature__collapse .col__text h3,
 .dark #feature__collapse .col__text p {
@@ -1091,6 +1095,10 @@ a:hover {
 /* BLOG RESP */
 @media screen and (max-width: 576px) {
 
+    .mast-blog {
+        margin: 1rem 0 0.75rem;
+    }
+
     .mast-blog .mast-title h3 {
         font-size: 32px;
         margin-bottom: 20px;
@@ -1102,7 +1110,7 @@ a:hover {
 
     .blog__content .card:first-of-type,
     .blog__content .card:nth-of-type(2) {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
 }
 
@@ -1114,6 +1122,7 @@ a:hover {
 
     .mast-faq {
         padding: 45px 0;
+        margin: 1rem 0;
     }
 
     .mast-faq .mast-title h3 {
@@ -1121,6 +1130,7 @@ a:hover {
     }
 
     .mast-faq .mast-title p {
+        padding: 0 15px;
         max-width: 400px;
         margin-left: auto;
         margin-right: auto;
@@ -1132,6 +1142,7 @@ a:hover {
 
     #faq__collapse .card-header h2 button {
         padding-left: 3px;
+        padding-right: 15px;
     }
 
     #faq__collapse .card-body {
@@ -1192,6 +1203,7 @@ a:hover {
 
 
 /* FEEDBACK RESP */
+
 @media screen and (max-width: 576px) {
 
     .mast-feedback {
@@ -1280,6 +1292,10 @@ a:hover {
         margin: 0 auto;
     }
 
+    .footer__item h3 {
+        font-size: 19px;
+    }
+
     .mast-footer .mast-title p {
         padding: 0 15px;
     }
@@ -1289,30 +1305,16 @@ a:hover {
         font-size: 12px;
     }
 
+    .footer__item .card span:nth-of-type(1) {
+        font-size: 20px;
+    }
+
+    .form__contact .card button {
+        padding: 10px 20px;
+    }
+
 }
-
-
-/* FOOTER RESP */
 
 /* END FOOTER RESP */
 
 /* END RESPONSIVE SECTION */
-
-
-
-/* ANIMATION SECTION */
-
-/* FAQ SECTION */
-/* fadeInUp animation */
-/* @keyframes inUp {
-            from {
-                transform: translateY(10px);
-            }
-
-            to {
-                transform: translateY(0px);
-            }
-        } */
-/* END FAQ SECTION */
-
-/* END ANIMATION SECTION */
