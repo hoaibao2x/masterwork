@@ -455,7 +455,7 @@ a:hover {
     display: none;
 }
 
-#feature__collapse .collapse__header {
+/* #feature__collapse .collapse__header {
     background-color: white;
 }
 
@@ -569,7 +569,7 @@ a:hover {
 
 #feature__collapse .card {
     border-radius: 0;
-}
+} */
 
 /* End collapse type css */
 
