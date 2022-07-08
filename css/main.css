@@ -536,7 +536,7 @@ a:hover {
     font-weight: 700;
     color: #dc4f72;
     border: 1px solid #dc4f72;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     text-transform: uppercase;
     height: 52px;
     line-height: 52px;
