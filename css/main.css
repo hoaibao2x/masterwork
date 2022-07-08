@@ -566,6 +566,10 @@ a:hover {
     margin-bottom: 35px;
 }
 
+#feature__collapse .card {
+    border-radius: 0;
+}
+
 /* End collapse type css */
 
 /* END FEATURE */
