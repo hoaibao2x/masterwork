@@ -489,6 +489,7 @@ a:hover {
 
 #feature__collapse .collapse__header.collapsed {
     color: #4e5B61;
+    padding: 15px 20px;
 }
 
 #feature__collapse .collapse__header.collapsed::before {
