@@ -484,7 +484,7 @@ a:hover {
     color: #dc4f72;
     text-decoration: none;
     box-shadow: none;
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
 }
 
 #feature__collapse .collapse__header.collapsed {
