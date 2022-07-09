@@ -462,7 +462,7 @@ a:hover {
     position: relative;
 }
 
-#feature__collapse .collapse .card-body::before {
+/* #feature__collapse .collapse .card-body::before {
     content: '';
     position: absolute;
     top: 0;
@@ -471,7 +471,7 @@ a:hover {
     height: 3px;
     display: inline-block;
     background-color: #dc4f72;
-}
+} */
 
 #feature__collapse .collapse__header {
     position: relative;
@@ -480,6 +480,17 @@ a:hover {
     text-decoration: none;
     box-shadow: none;
     padding: 15px 20px;
+}
+
+#feature__collapse .collapse__header:focus::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    display: inline-block;
+    background-color: #dc4f72;
 }
 
 #feature__collapse .collapse__header.collapsed {
