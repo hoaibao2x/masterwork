@@ -482,7 +482,8 @@ a:hover {
     padding: 15px 20px;
 }
 
-#feature__collapse .collapse__header:focus::after {
+#feature__collapse .collapse__header:focus::after,
+#feature__collapse .collapse__header:nth-of-type(1)::after {
     content: '';
     position: absolute;
     bottom: 0;
