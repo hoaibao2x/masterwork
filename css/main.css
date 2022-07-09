@@ -1145,8 +1145,6 @@ a:hover {
     }
 
     #faq__collapse .card-body {
-        text-align: justify;
-        word-break: break-all;
         padding-left: 20px;
         padding-right: 50px;
     }
