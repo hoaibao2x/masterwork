@@ -824,6 +824,7 @@ a:hover {
 
 /* Switch Theme Button */
 .btn__changeTheme {
+    color: #000;
     position: fixed;
     font-size: 20px;
     bottom: 100px;
