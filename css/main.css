@@ -916,12 +916,9 @@ a:hover {
     color: #fff;
 }
 
-.dark .blog__content .card-body {
-    border-radius: 0 0 6px 6px;
-}
-
 .dark .blog__content .card .card-body {
     background-color: #111827;
+    border-radius: 0 0 6px 6px;
 }
 
 .dark .blog__content .card-body a,
