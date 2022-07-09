@@ -922,7 +922,7 @@ a:hover {
 }
 
 .dark .blog__content .card {
-    border: none;
+    border-radius: 5px;
 }
 
 .dark .blog__content .card .card-body {
