@@ -311,29 +311,26 @@ a:hover {
     padding: 15px;
 }
 
-#faq__collapse .card-header h2 {
-    /* position: relative; */
-}
-
-#faq__collapse .card-header .btn span {
+#faq__collapse .card-header .btn i {
     position: absolute;
-    font-size: 1.6rem;
+    display: inline-block;
+    font-size: 16px;
     font-weight: 700;
-    top: 15px;
-    right: 10px;
-    transform: rotate(180deg);
+    top: 28px;
+    right: 25px;
+    transform: rotate(0deg);
     transition: all .5s;
 }
 
-#faq__collapse .card-header .btn.collapsed span {
-    transform: rotate(0deg);
+#faq__collapse .card-header .btn.collapsed i {
+    transform: rotate(-180deg);
 }
 
 #faq__collapse .card-header button {
     color: #2c3038;
     text-decoration: none;
-    font-size: 20px;
-    line-height: 1;
+    font-size: 17px;
+    line-height: 28px;
 }
 
 #faq__collapse .card-header button:focus {
@@ -1092,6 +1089,16 @@ a:hover {
 
 
 /* BLOG RESP */
+
+@media screen and (max-width: 600px) {
+
+    .blog__content .card:first-of-type,
+    .blog__content .card:nth-of-type(2) {
+        margin-bottom: 25px;
+    }
+
+}
+
 @media screen and (max-width: 576px) {
 
     .mast-blog {
@@ -1107,16 +1114,59 @@ a:hover {
         padding: 0 15px;
     }
 
-    .blog__content .card:first-of-type,
-    .blog__content .card:nth-of-type(2) {
-        margin-bottom: 25px;
-    }
 }
 
 /* END BLOG RESP */
 
 
 /* FAQ RESP */
+
+@media screen and (max-width: 1024px) {
+    #faq__collapse .card-body {
+        padding: 0 30px 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #faq__collapse .card-header button {
+        line-height: 18px;
+        padding-right: 35px;
+        padding-left: 10px;
+    }
+
+    #faq__collapse .card-body {
+        padding-left: 25px;
+        padding-right: 40px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .mast-faq .mast-title p {
+        padding: 0 15px;
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #faq__collapse {
+        margin-top: 35px;
+    }
+
+    #faq__collapse .card-header button {
+        padding-right: 35px;
+        padding-left: 0;
+    }
+
+    #faq__collapse .card-body {
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+
+}
+
 @media screen and (max-width: 576px) {
 
     .mast-faq {
@@ -1128,25 +1178,8 @@ a:hover {
         font-size: 32px;
     }
 
-    .mast-faq .mast-title p {
-        padding: 0 15px;
-        max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #faq__collapse {
-        margin-top: 35px;
-    }
-
-    #faq__collapse .card-header h2 button {
-        padding-left: 3px;
-        padding-right: 15px;
-    }
-
-    #faq__collapse .card-body {
-        padding-left: 20px;
-        padding-right: 40px;
+    #faq__collapse .card-header .btn i {
+        top: 25px;
     }
 
 }
@@ -1245,7 +1278,7 @@ a:hover {
         max-width: 950px;
     }
 
-    .footer__content__top  {
+    .footer__content__top {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -1255,7 +1288,7 @@ a:hover {
     }
 
     .footer__item .card input {
-       width: 70%;
+        width: 70%;
     }
 
     .footer__item .card button {
