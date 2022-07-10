@@ -1257,10 +1257,6 @@ a:hover {
         margin-bottom: 25px;
     }
 
-    .mast-feedback .feedback__avatar img {
-        object-fit: cover;
-    }
-
     .feedback__item .feedback__text {
         padding-left: 0px;
         text-align: center;
