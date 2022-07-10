@@ -1124,7 +1124,7 @@ a:hover {
 
 @media screen and (max-width: 1024px) {
     #faq__collapse .card-body {
-        padding: 0 30px 22px;
+        padding: 0 35px 15px 30px;
     }
 }
 
@@ -1234,8 +1234,8 @@ a:hover {
 @media screen and (max-width: 412px) {
 
     #faq__collapse .card-header button {
-        padding-right: 35px;
-        padding-left: 10px;
+        padding-right: 50px;
+        padding-left: 20px;
         line-height: 30px;
     }
 
