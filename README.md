@@ -19,6 +19,7 @@
   <li>Feedback section</li>
   <li>Footer section</li>
 </ul>
+<hr>
 
 <h3>📌 UI (Responsive):</h3>
 <ul>
