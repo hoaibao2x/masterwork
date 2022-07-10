@@ -1122,10 +1122,20 @@ a:hover {
 
 /* FAQ RESP */
 
+@media screen and (max-width: 1920px) {
+
+    #faq__collapse .card-body {
+        padding: 0 35px 15px 28px;
+    }
+
+}
+
 @media screen and (max-width: 1024px) {
+
     #faq__collapse .card-body {
         padding: 0 35px 15px 30px;
     }
+
 }
 
 @media screen and (max-width: 912px) {
