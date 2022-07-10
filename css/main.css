@@ -1199,7 +1199,7 @@ a:hover {
 
     #faq__collapse .card-header button {
         padding-right: 35px;
-        padding-left: 0;
+        padding-left: 15px;
     }
 
     #faq__collapse .card-body {
