@@ -1122,7 +1122,7 @@ a:hover {
 
 /* FAQ RESP */
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 2880px) {
 
     #faq__collapse .card-body {
         padding: 0 45px 15px 28px;
