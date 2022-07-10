@@ -1244,24 +1244,33 @@ a:hover {
 @media screen and (max-width: 412px) {
 
     #faq__collapse .card-header button {
-        padding-right: 50px;
+        padding-right: 62px;
         padding-left: 20px;
         line-height: 30px;
     }
 
 }
 
-@media screen and (max-width: 390px) {
+/* @media screen and (max-width: 390px) {
 
     #faq__collapse .card .card-body {
         padding-left: 14px;
         padding-right: 40px;
     }
 
-}
+} */
 
+/* @media screen and (max-width: 375px) {
 
-@media screen and (max-width: 280px) {
+    #faq__collapse .card-header button {
+        padding-right: 60px;
+        padding-left: 20px;
+        line-height: 30px;
+    }
+
+} */
+
+/* @media screen and (max-width: 280px) {
 
     #faq__collapse .card-header button {
         padding-right: 35px;
@@ -1275,7 +1284,7 @@ a:hover {
         padding-right: 40px;
     }
 
-}
+} */
 
 /* END FAQ RESP */
 
