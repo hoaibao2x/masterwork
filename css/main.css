@@ -952,8 +952,8 @@ a:hover {
     color: #fff;
 }
 
-.dark #faq__collapse .card-header,
-.dark #faq__collapse .card-body {
+.dark #faq__collapse .card,
+.dark #faq__collapse .card-header {
     background-color: #111827;
 }
 
