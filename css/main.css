@@ -138,7 +138,7 @@ a:hover {
     filter: grayscale(0);
 }
 
-.blog__content .card:first-of-type::before {
+.blog__content .card.item__1::before {
     position: absolute;
     content: '26 Jan, 2022';
     font-size: 18px;
@@ -157,7 +157,7 @@ a:hover {
     transition: all .5s;
 }
 
-.blog__content .card:nth-of-type(2)::before {
+.blog__content .card.item__2::before {
     position: absolute;
     content: '15 Apr, 2020';
     font-size: 18px;
@@ -175,7 +175,7 @@ a:hover {
     z-index: 1;
 }
 
-.blog__content .card:nth-of-type(3)::before {
+.blog__content .card.item__3::before {
     position: absolute;
     content: '25 Jun, 2020';
     font-size: 18px;
@@ -600,6 +600,7 @@ a:hover {
     border-radius: 50%;
     border: 2px solid #dc4f72;
     object-fit: cover;
+    object-position: top;
     position: relative;
     justify-content: center;
 }
@@ -1127,6 +1128,37 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 912px) {
+
+    #faq__collapse .card-header {
+        padding: 15px 0;
+    }
+
+    #faq__collapse .card-body {
+        padding-left: 15px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+
+    #faq__collapse .card-header button {
+        line-height: 18px;
+        padding-right: 44px;
+        padding-left: 10px;
+    }
+
+    #faq__collapse .card-header .btn i {
+        top: 20px;
+    }
+
+    #faq__collapse .card-body {
+        padding-left: 15px;
+        padding-right: 40px;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
 
     #faq__collapse .card-header button {
@@ -1136,7 +1168,7 @@ a:hover {
     }
 
     #faq__collapse .card-body {
-        padding-left: 25px;
+        padding-left: 15px;
         padding-right: 40px;
     }
 
@@ -1178,8 +1210,59 @@ a:hover {
         font-size: 32px;
     }
 
+
+    #faq__collapse .card-header button {
+        padding-left: 18px;
+        padding-right: 45px;
+    }
+
     #faq__collapse .card-header .btn i {
         top: 25px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+    #faq__collapse .card-body {
+        padding-left: 18px;
+        padding-right: 40px;
+    }
+
+}
+
+@media screen and (max-width: 412px) {
+
+    #faq__collapse .card-header button {
+        padding-right: 35px;
+        padding-left: 10px;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    #faq__collapse .card .card-body {
+        padding-left: 14px;
+        padding-right: 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 280px) {
+
+    #faq__collapse .card-header button {
+        padding-right: 35px;
+        padding-left: 8px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    #faq__collapse .card-body {
+        padding-left: 18px;
+        padding-right: 40px;
     }
 
 }
